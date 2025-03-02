@@ -61,24 +61,46 @@ button:hover {
 
 .btn-group {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.full-width {
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
   justify-content: center;
-  gap: 5px;
-  margin-top: 10px;
+  gap: 20px; 
+  width: 100%; 
+}
+
+.row button {
+  width: 120px; 
 }
 
 .result-box {
-  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   padding: 10px;
   border-radius: 5px;
   margin-top: 10px;
   font-size: 14px;
   font-weight: bold;
   color: #ffffff;
-  word-wrap: break-word;
+  width: 100%; 
+  max-width: 300px; 
 }
 
 span {
-  color: #45268f;
+  color: #6200ea;
+  padding: 0px 10px;
+  font-size: large;
 } 
 
 
